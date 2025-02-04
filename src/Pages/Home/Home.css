@@ -1,0 +1,23 @@
+.Home{
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(assets/i1.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   width: 100%;
+}
+.Home .HomeContent{
+    position: absolute;
+    top: 42%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+.Home .HomeContent h1{
+    font-size: 50px;
+    font-weight: 800;
+    background: var(--main);
+    padding-block:  5px; 
+    padding-inline: 2px;
+}
+.Classes{
+    margin: 100px auto;
+}

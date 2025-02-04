@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+:root{
+  --main:#141812;
+  --boxShadow: 10px 10px 10px -10px rgba(24,
+32, 25, 0.4), inset 10px 10px 10px -10px rgba
+(67, 50, 50, 0.6);
+   --boxShadowHover: 30px 30px 30px 30px rgba
+(77, 71, 71, 0.8), inset 40px 40px 40px
+rgba(31, 28, 24, 0.9);
+}
+*{
+  font-family: "Cinzel", serif;
+  transition: 0.2s ease-in;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+*::selection{
+  background: var(--main);
+  color: #fff;
+}
+body{
+  background: #000a06;
+  color: #fff;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--main);
+}
+::-webkit-scrollbar-track{
+  background: #000;
+}

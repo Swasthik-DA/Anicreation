@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--boxShadow);
+    padding-inline: 100px;
+}
+.nav-link{
+    color: #fff !important;
+    margin-inline: 20px;
+}
+.navbar .secondDiv select{
+    background: none !important;
+    outline: none !important;
+    color: #fff;
+}
+.navbar .secondDiv option{
+    background: #000 !important;
+}
+.navbar .btn{
+    margin-left: 20px;
+}
